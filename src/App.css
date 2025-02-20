@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #333;
+  color: #fff;
+  height: 75px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  padding-left: 30px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 30px;
+  text-transform: capitalize;
+  font-size: 20px;
+
+}
+
+ul {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-text {
+  display: inline-flex;
+  font-size: 20px;
+
+}
+
+p {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.pp {
+  color: red;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+select {
+  text-transform: capitalize;
+  font-size: 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border: #333;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+
+ .main {
+   background-color: black; 
+  height: 300px;
+
+} 
+
+#h1 {
+  margin-left: 150px;
+  margin-right: 240px;
+
+}
+
+.table {
+  justify-content: space-between;
+  display: inline;
+  color: #fff;
+}
+
+.profile {
+  height: 30px;
+  width: 30px;
+  padding-top: 80px;
+}
+
+.name {
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 0px;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#clock {
+  padding-left: 100px;
+  padding-top: 80px;
+
+}
+
+#clock1 {
+  padding-top: 80px;
+  text-transform: capitalize;
+}
+
+#date {
+  padding-left: 100px;
+  padding-top: 80px;
+}
+
+#date1 {
+  padding-top: 80px;
+  text-transform: capitalize;
+}
+
+
+
+.head {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+  height: 400px;
+  width: 700px;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+
+}
+
+.text {
+  color: #000000;
+  text-align: center;
+  font-size: 22px;
+   font-weight: 600; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h3 {
+  padding-right: 60px;
+}
+
+.h31 {
+  padding-right: 570px;
+
+}
+
+
+.para {
+  margin-right: 320px;
+  margin-left: 300px;
+  font-size: 20px;
+
+}
+
+.pere {
+  margin-left: 340px;
+  margin-right: 400px;
+  margin-top: 20px;
+  font-size: 30px;
+  border-left: 2px solid red;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #000000;
+}
+
+.footer-section-left {
+  padding: 0px 20px;
+  flex: 1;
+
+}
+
+.about {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 30px;
+
+  padding-left: 100px;
+}
+
+.para-left {
+  padding-right: 100px;
+  color: #fff;
+  padding-left: 100px;
+  font-size: 12px;
+}
+
+.footer-section-center {
+
+  flex: 1;
+
+
+}
+
+.img-section {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.page {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img1 {
+  height: 50px;
+  width: 50px;
+
+
+}
+
+.para2 {
+  color: #fff;
+  font-size: 15px;
+  padding: 0px;
+
+}
+
+.footer-section-right {
+  text-align: right;
+  padding: 0px 20px;
+  flex: 1;
+}
+
+.follow {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-right: 300px;
+
+}
+
+#insta,
+#face,
+#what {
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 10px;
+
 }

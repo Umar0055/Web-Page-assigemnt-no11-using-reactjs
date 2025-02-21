@@ -257,11 +257,14 @@ select {
   padding-right: 300px;
 
 }
+.links{
+  color: rgb(255, 255, 255);
+}
 
 #insta,
 #face,
 #what {
-  color: #fff;
+  color: #ffffff;
   padding-top: 20px;
   padding-left: 10px;
 

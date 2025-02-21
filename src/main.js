@@ -21,9 +21,9 @@ function Main(){
 
    
 
-    <section/>
+  <div classNmae="img-section">
         <div className="img">
-            <img className="img" src="E:\assigments\course\reactjs\cvapp\src\pic.jpg" alt=""/>
+            <img className="img" src="/pic.jpg" alt="error"/>
         </div>
         <div className="text"/>
             <h3 className="h3"> You Can Have Anything You Want In Life If You </h3>
@@ -31,6 +31,10 @@ function Main(){
 
 
         </div>
+
+        </div>
+        <br/>
+        <section className="section"/>
         <p className="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni tempore laborum dolore vero?
             Praesentium repudiandae sed beatae autem, corrupti, exercitationem, veritatis eaque neque totam quas maiores
             commodi sunt provident labore!

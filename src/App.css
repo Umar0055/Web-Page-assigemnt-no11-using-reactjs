@@ -154,11 +154,13 @@ select {
 }
 
 .h3 {
-  padding-right: 60px;
+  margin-left: 300px;
+  font-size: 34px;
 }
 
 .h31 {
-  padding-right: 570px;
+  margin-left: 300px;
+  font-size: 34px;
 
 }
 
@@ -167,6 +169,7 @@ select {
   margin-right: 320px;
   margin-left: 300px;
   font-size: 20px;
+  
 
 }
 
@@ -262,4 +265,7 @@ select {
   padding-top: 20px;
   padding-left: 10px;
 
+}
+.section{
+  margin-top: 600px;
 }
